@@ -1,1 +1,2 @@
 # bakery_demo
+At Sweet Crust Bakery, we believe every day deserves a little sweetness. Our shelves are filled with freshly baked breads, buttery croissants, soft cakes, and delightful pastries — all crafted with care and the finest ingredients. Whether you’re stopping by for a quick snack, celebrating a special occasion, or simply craving a warm loaf straight from the oven, we promise flavors that feel like home and moments worth savoring.
