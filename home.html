@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bakelore Bakery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fefdf9;
+      color: #333;
+    }
+    .brand {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #b0857a;
+    }
+    .nav-icon {
+      font-size: 1.3rem;
+      margin-left: 15px;
+      position: relative;
+      color: #b0857a;
+    }
+    .nav-icon .badge {
+      position: absolute;
+      top: -8px;
+      right: -10px;
+      background-color: #b0857a;
+    }
+    .brand-section {
+      background-color: #fff7f4;
+      padding: 3rem 1rem;
+    }
+    .read-more-btn {
+      background-color: #c5908e;
+      color: white;
+      border: none;
+    }
+    .read-more-btn:hover {
+      background-color: #a4706d;
+    }
+    .image-gallery img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .heading {
+      font-size: 2.8rem;
+      font-weight: 600;
+    }
+    .description {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #555;
+    }
+    .btn-custom {
+      background-color: #b97b7b;
+      color: #fff;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-weight: 500;
+      margin-top: 20px;
+    }
+    .img-grid img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="https://th.bing.com/th/id/OIP.EZwAWlRn3EtO9ETReNIpDwHaEQ?rs=1&pid=ImgDetMain" width="140" height="80" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto me-3 mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+      </ul>
+      <div class="d-flex align-items-center">
+        <a href="#" class="nav-icon"><i class="bi bi-search"></i></a>
+        <a href="#" class="nav-icon"><i class="bi bi-person"></i></a>
+        <a href="#" class="nav-icon position-relative">
+          <i class="bi bi-heart"></i>
+          <span class="badge rounded-pill text-white">0</span>
+        </a>
+        <a href="#" class="nav-icon position-relative">
+          <i class="bi bi-bag"></i>
+          <span class="badge rounded-pill text-white">0</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Brand Story -->
+<div class="container text-center mt-5">
+  <h1>Our Brand story in a Nutshell</h1>
+</div>
+
+<div class="container brand-section">
+  <div class="row">
+    <div class="col-md-12">
+      <img src="https://bakelore.com/cdn/shop/files/Wall-adobe-illustrator-edit_1.webp?v=1725979372&width=1920" width="1200" height="500" class="img-fluid" alt="Brand Banner">
+    </div>
+  </div>
+  <div class="container py-5">
+    <div class="row align-items-center">
+      <!-- Left column -->
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h1 class="heading mb-4">Best Bakery in Hyderabad</h1>
+        <p class="description">
+          Welcome to Bakelore a ’90s themed bakery bringing to the contemporary world, a nostalgic era of home-baked goodness in the most aesthetic way possible.
+          <br><br>
+          Bakelore was founded with the aim of bringing scrumpdillyicious traditional baked goods to modern-day customers.
+           We believe that good food should be made with the finest
+           ingredients and from the finest memories of the ’90s with our families.
+        </p>
+        <button class="btn btn-custom">READ MORE</button>
+      </div>
+
+      <!-- Right column (images) -->
+      <div class="col-lg-6">
+        <div class="row g-3 img-grid">
+          <div class="col-4">
+            <img src="https://bakelore.com/cdn/shop/files/Blue-berry-jar-bakelore.jpg?crop=center&height=645&v=1735275464&width=640" alt="Image 1">
+          </div>
+          <div class="col-4">
+            <img src="https://th.bing.com/th/id/OIP.JsWwFXo6sozlUxNluTewsgHaHd?rs=1&pid=ImgDetMain" alt="Image 2">
+          </div>
+          <div class="col-4">
+            <img src="https://bakelore.com/cdn/shop/files/kaju_katli_01.jpg?crop=center&height=645&v=1728385270&width=640" alt="Image 3">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Shop by Category Section -->
+<div class="container-fluid py-5" style="background-color: #e8d5c6;">
+  <div class="container">
+    <h2 class="text-center mb-5" style="font-size: 2.5rem; font-weight: 500;">Shop by category</h2>
+    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-6 g-4 text-center">
+      
+      <div class="col">
+        <div class="bg-white p-4 rounded-3 shadow-sm h-100">
+          <img src="https://cdn-icons-png.flaticon.com/512/1821/1821063.png" alt="Cakes" width="60" class="mb-3">
+          <p class="text-muted mb-1">12 ITEMS</p>
+          <h6>1. Cakes</h6>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="bg-white p-4 rounded-3 shadow-sm h-100">
+          <img src="https://cdn-icons-png.flaticon.com/512/1046/1046751.png" alt="Dessert" width="60" class="mb-3">
+          <p class="text-muted mb-1">14 ITEMS</p>
+          <h6>2. Dessert</h6>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="bg-white p-4 rounded-3 shadow-sm h-100">
+          <img src="https://cdn-icons-png.flaticon.com/512/1404/1404945.png" alt="Food" width="60" class="mb-3">
+          <p class="text-muted mb-1">50 ITEMS</p>
+          <h6>3. Food & Savories</h6>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="bg-white p-4 rounded-3 shadow-sm h-100">
+          <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Breakfast" width="60" class="mb-3">
+          <p class="text-muted mb-1">24 ITEMS</p>
+          <h6>4. All Day Break Fast</h6>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="bg-white p-4 rounded-3 shadow-sm h-100">
+          <img src="https://cdn-icons-png.flaticon.com/512/3132/3132693.png" alt="Baked Goodies" width="60" class="mb-3">
+          <p class="text-muted mb-1">25 ITEMS</p>
+          <h6>5. Baked Goodies</h6>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="bg-white p-4 rounded-3 shadow-sm h-100">
+          <img src="https://cdn-icons-png.flaticon.com/512/1404/1404941.png" alt="Beverages" width="60" class="mb-3">
+          <p class="text-muted mb-1">31 ITEMS</p>
+          <h6>6. Beverages</h6>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+ 

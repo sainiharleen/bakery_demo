@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bakelore Bakery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fefdf9;
+      color: #333;
+    }
+    .brand {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #b0857a;
+    }
+    .nav-icon {
+      font-size: 1.3rem;
+      margin-left: 15px;
+      position: relative;
+      color: #b0857a;
+    }
+    .nav-icon .badge {
+      position: absolute;
+      top: -8px;
+      right: -10px;
+      background-color: #b0857a;
+    }
+    .brand-section {
+      background-color: #fff7f4;
+      padding: 3rem 1rem;
+    }
+     /* Hero Section */
+     .hero-section {
+      background-image: url('https://thafd.bing.com/th/id/OIP.2vqh2z-vsfVGPIty-Ss2VgHaEK?rs=1&pid=ImgDetMain');
+      background-size: cover;
+      background-position: center;
+      height: 40vh;
+      position: relative;
+    }
+
+    .hero-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: rgb(6, 1, 1);
+    }
+
+    .hero-content h1 {
+      font-size: 4rem;
+      font-weight: 500;
+      margin-bottom: 1.5rem;
+    }
+
+    .order-now-btn {
+      background-color: #d48b8b;
+      border: none;
+      color: rgb(17, 14, 14);
+      font-weight: bold;
+      padding: 0.8rem 2rem;
+      font-size: 1rem;
+      border-radius: 6px;
+    }
+    
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="https://th.bing.com/th/id/OIP.EZwAWlRn3EtO9ETReNIpDwHaEQ?rs=1&pid=ImgDetMain" width="140" height="80" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto me-3 mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+      </ul>
+      <div class="d-flex align-items-center">
+        <a href="#" class="nav-icon"><i class="bi bi-search"></i></a>
+        <a href="#" class="nav-icon"><i class="bi bi-person"></i></a>
+        <a href="#" class="nav-icon position-relative">
+          <i class="bi bi-heart"></i>
+          <span class="badge rounded-pill text-white">0</span>
+        </a>
+        <a href="#" class="nav-icon position-relative">
+          <i class="bi bi-bag"></i>
+          <span class="badge rounded-pill text-white">0</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="hero-section">
+    <div class="hero-content">
+      <h1>About Us</h1>
+      <button class="order-now-btn">ORDER NOW</button>
+    </div>
+  </section>
+  <!-- About Section -->
+<section class="about-section py-5" style="background-color: #fdfaf5;">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left Text Column -->
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <h2 class="display-5 fw-semibold">We Are Bakelore</h2>
+          <h3 class="h2 fw-light" style="letter-spacing: 2px;">WE LOVE CAKE</h3>
+          <p class="text-muted mt-4" style="line-height: 1.9;">
+            Bakelore was founded with the aim of bringing scrumpdillylicious traditional baked goods to modern-day customers.
+            We believe that good food should be made with the finest ingredients and from the finest memories of the '90s with our families. <br><br>
+            We are passionate about bringing former-time delicacies by inculcating our recipes with nostalgic flavors and combinations.
+            Bakelore strives to create an atmosphere that is warm and welcoming, which is why nostalgia is set as the core theme to bring good food
+             and good memories from the past together. 
+            We hope that Bakelore becomes a place where you come to enjoy delicious food and reminisce memories with friends and family.
+          </p>
+        </div>
+  
+        <!-- Right Image Column -->
+        <div class="col-lg-6">
+          <img src="https://b.zmtcdn.com/data/pictures/5/20656165/d4b73f36417559929fa8ef0300ab1fa8.jpg" alt="Bakelore Store" class="img-fluid rounded">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer Section -->
+<footer class="py-5" style="background-color: #e5d9c4;">
+    <div class="container">
+      <div class="row text-center text-md-start">
+        
+        <!-- Quick Links -->
+        <div class="col-md-2 mb-4">
+          <h5 class="fw-bold">Quick Links</h5>
+          <ul class="list-unstyled text-muted">
+            <li>Terms & Conditions</li>
+            <li>Privacy Policy</li>
+            <li>Shipping Policy</li>
+            <li>Return Policy</li>
+            <li>Blog</li>
+          </ul>
+        </div>
+  
+        <!-- Main Menu -->
+        <div class="col-md-2 mb-4">
+          <h5 class="fw-bold">Main menu</h5>
+          <ul class="list-unstyled text-muted">
+            <li>Home</li>
+            <li>About us</li>
+            <li>Order Now</li>
+            <li>Contact Us</li>
+            <li>Blog</li>
+          </ul>
+        </div>
+  
+        <!-- Center Logo & Contact -->
+        <div class="col-md-4 mb-4 text-center">
+          <img src="https://th.bing.com/th/id/OIP.EZwAWlRn3EtO9ETReNIpDwHaEQ?rs=1&pid=ImgDetMain" alt="Bakelore Logo" style="height: 40px;">
+          <p class="mt-3 mb-1"><strong>Contact:</strong> +91 799 799 0122</p>
+          <p><strong>Mail:</strong> hello@bakelore.com</p>
+          <h6 class="fw-bold">Our Recent Blogs</h6>
+          <div class="d-flex justify-content-center gap-2 flex-wrap mt-2">
+            <img src="https://b.zmtcdn.com/data/pictures/5/20656165/d4b73f36417559929fa8ef0300ab1fa8.jpg" alt="Blog 1" class="img-thumbnail" style="width: 70px; height: 70px; object-fit: cover;">
+            <img src="https://bakelore.com/cdn/shop/files/strawberry-parfait.jpg?crop=center&height=645&v=1735372600&width=640" alt="Blog 2" class="img-thumbnail" style="width: 70px; height: 70px; object-fit: cover;">
+            <img src="https://bakelore.com/cdn/shop/files/shredded-chicken-wrap.jpg?v=1724687484&width=352" alt="Blog 3" class="img-thumbnail" style="width: 70px; height: 70px; object-fit: cover;">
+            <img src="https://bakelore.com/cdn/shop/files/MILAN.jpg?crop=center&height=645&v=1728326233&width=640" alt="Blog 4" class="img-thumbnail" style="width: 70px; height: 70px; object-fit: cover;">
+          </div>
+        </div>
+  
+        <!-- Our Menu -->
+        <div class="col-md-2 mb-4">
+          <h5 class="fw-bold">Our Menu</h5>
+          <ul class="list-unstyled text-muted">
+            <li>Cakes</li>
+            <li>Desserts</li>
+            <li>Food & Savories</li>
+            <li>All Day Breakfast</li>
+            <li>Hampers</li>
+          </ul>
+        </div>
+  
+        <!-- Best Selling -->
+        <div class="col-md-2 mb-4">
+          <h5 class="fw-bold">Best Selling</h5>
+          <ul class="list-unstyled text-muted">
+            <li>Pizza</li>
+            <li>Cakes</li>
+            <li>Hampers</li>
+            <li>Beverages</li>
+            <li>Burgers</li>
+          </ul>
+        </div>
+  
+      </div>
+    </div>
+  </footer>
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+ 
